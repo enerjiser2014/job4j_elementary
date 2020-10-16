@@ -38,6 +38,4 @@ public class FitTest {
         double out = Fit.manWeight(in);
         Assert.assertEquals(expected, out, 1e-2);
     }
-
-
 }

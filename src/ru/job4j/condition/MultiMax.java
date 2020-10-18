@@ -6,8 +6,6 @@ public class MultiMax {
         if (first > second) {
             if (first < third) {
                 result = third;
-            } else {
-                result = first;
             }
         } else {
             if (second < third) {

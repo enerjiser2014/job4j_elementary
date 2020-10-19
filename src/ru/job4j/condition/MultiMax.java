@@ -17,4 +17,10 @@ public class MultiMax {
         }
         return result;
     }
+
+    public static int max2(int first, int second, int third) {
+        int rsl = first >= second ? first : second;
+        return rsl >= third ? rsl : third;
+    }
 }
+

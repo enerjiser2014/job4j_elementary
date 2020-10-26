@@ -6,7 +6,7 @@ public class ReserverLoopForArray {
         int index;
         for (int i = 0; i < numbers.length; i++) {
             index = numbers.length - i - 1;
-            if (index % 2 == 0 && index != 0) {
+            if (index % 2 == 0 && index > 0) {
                 System.out.println(numbers[index]);
             }
 

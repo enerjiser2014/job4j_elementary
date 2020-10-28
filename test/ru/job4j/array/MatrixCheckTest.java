@@ -83,14 +83,14 @@ public class MatrixCheckTest {
     @Test
     public void whenDataHMonoByTrueThenTrue2() {
         char[][] input = {
-                {'X', 'X', 'X', 'X', 'X'},
-                {'X', ' ', ' ', ' ', ' '},
+                {'X', 'X', ' ', 'X', 'X'},
+                {' ', ' ', 'X', ' ', ' '},
                 {'X', ' ', ' ', ' ', ' '},
                 {'X', ' ', ' ', ' ', ' '},
                 {'X', ' ', ' ', ' ', ' '},
         };
         boolean result = MatrixCheck.isWin(input);
-        assertThat(result, is(true));
+        assertThat(result, is(false));
     }
 
 }

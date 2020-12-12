@@ -1,7 +1,7 @@
 package ru.job4j.oop;
 
 public class Fox {
-    public void say(){
+    public void say(Wolf wolf){
 
     }
 }

@@ -4,7 +4,7 @@ public class Ball {
     public void run(){
 
     }
-    public void say(){
+    public void say(Hare hare){
 
     }
 }

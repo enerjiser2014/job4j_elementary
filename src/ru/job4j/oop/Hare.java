@@ -4,7 +4,7 @@ public class Hare {
     public void run(){
 
     }
-    public void say(){
+    public void say(Fox fox){
 
     }
 }

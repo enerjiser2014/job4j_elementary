@@ -7,7 +7,6 @@ public class MatrixLoop {
                 {7, 1, 3},
                 {3, 5, 6},
         };
-
         for (int row = 0; row < array.length; row++) {
             for (int cell = 0; cell < array.length; cell++) {
                 int val = array[row][cell];

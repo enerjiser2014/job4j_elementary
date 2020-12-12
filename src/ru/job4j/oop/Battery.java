@@ -6,11 +6,13 @@ public class Battery {
     public Battery(int pw) {
         this.power = pw;
     }
-    public void exchange(Battery another){
+
+    public void exchange(Battery another) {
         this.power += another.power;
         another.power = 0;
     }
-    public void show(){
+
+    public void show() {
         System.out.println("power is: " + this.power);
     }
 

@@ -6,16 +6,12 @@ public class Point {
     private int x;
     private int y;
 
-    public static double distance(int x1, int y1, int x2, int y2) {
-        return sqrt(pow(x2 - x1, 2) + pow(y2-y1, 2));
-    }
-
-    public Point(int first, int second){
+    public Point(int first, int second) {
         this.x = first;
         this.y = second;
     }
 
-    public double distance(Point that){
+    public double distance(Point that) {
         return sqrt(pow(this.x - that.x, 2) + pow(this.y - that.y, 2));
     }
 
